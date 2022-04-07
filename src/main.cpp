@@ -1,5 +1,7 @@
 #include <Arduino.h>
 
+#define LED_BUILTIN   10
+
 void setup(){
   // Open serial communications and wait for port to open:
   Serial.begin(9600);
